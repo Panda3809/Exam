@@ -1,0 +1,213 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy-Bold', 'sans-serif';
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+:root{
+    --main-color: var(#000);
+    --private-color: var(#0065FE);
+    --secondary-color: var(#fff);
+}
+
+body{
+    color: var(--main-color);
+    background-color: var(--main-color);
+    position: absolute;
+    width: 80%;
+}
+
+header{
+    position: absolute;
+    top: 16px;
+    left: 0;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    margin-left: 1%;
+    padding: 10px 5%;
+}
+
+.navbar {
+    color: var(--main-color);
+    margin-left: 300px;
+    font-size: 18px;
+    width: auto;
+    top: 16px;
+    position: absolute;
+    display: flex;
+    gap: 2em;
+}
+
+.navbar a{
+    color: var(--main-color);
+    font-family: 'Gilrol-medium';
+    text-decoration: solid;
+    font-weight: 300;
+}
+
+.login{
+    position: absolute; 
+    margin-left: 850px;
+    top: 16px;
+}
+    
+.login a{
+    color: var(--main-color);
+    font-family: 'Gilrol-medium';
+    text-decoration: solid;
+    font-weight: 300;
+    justify-content: space-between;
+}
+.login span{
+    top: 20px;
+    color: #fff;
+    background: #0065FE;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 30px;
+    text-decoration: solid;background: #0065FE;
+}
+.writings{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+div.sign {
+    margin-left: 550px;
+    gap: 1em;
+    margin-bottom: 80px;
+}
+
+div.sign a{
+    gap: 4em;
+    text-decoration: solid;
+}
+
+.long{
+    margin-left: 350px;
+}
+
+.full{
+    margin-left: 350px;
+    margin-top: -245px;
+    size-adjust: 40px;
+    margin-bottom: 70px;
+}
+.plate{
+    margin-left: 10px;
+    margin-bottom: -5px;
+
+}
+.properties{
+    margin-bottom: 80px;
+}
+
+.why{
+    margin-left: 80px;
+}
+
+.frame{
+    margin-left:  550px;
+    margin-top: -270px;
+    margin-bottom: 100px;
+}
+
+.frame2{
+    margin-left:  550px;
+    margin-top: 30px;
+}
+
+.perfect{
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.perfect h1{
+    margin-left: 10px;
+    font-family: 'Gilroy-Heavy';
+    margin-top: -40px;
+    margin-bottom: 15px;
+    font-size: 43px;
+    font-weight: 700;
+}
+.perfect p{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+.free{
+    margin-left: 100px;
+    margin-top: 200px;
+    position: relative;
+    width: 290px;
+    height: 400px;
+    background: #fff;
+    border: 1px solid #d5d5d5;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.teams{
+    margin-left: 800px;
+    margin-top: -500px;
+    position: relative;
+    width: 290px;
+    height: 400px;
+    background: #fff;
+    border: 1px solid #d5d5d5;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.professional{
+    margin-left: 435px;
+    margin-top: -560px;
+    color: #fff;
+    background:linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+    position: relative;
+    width: 300px;
+    height: 550px;
+    border: 1px solid linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+    border-radius: 20px;
+    padding: 40px;
+    /* margin-bottom: 100px; */
+}
+
+.btn{
+    font-size: 10px;
+    text-decoration: solid;
+    margin-left: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+ .btn a{
+    border: 1px solid #0065FE;
+    border-radius: 40px;
+    padding: 20px;
+    text-decoration: solid;
+ 
+}
+.help{
+    background: #1e3448;
+    padding-right: 100px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.form-con{
+    color: #0065FE;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 40px 20px 40px 20px;
+    margin-left: 350px;
+}
+
