@@ -51,29 +51,13 @@ header{
     font-weight: 300;
 }
 
-.login{
-    position: absolute; 
-    margin-left: 850px;
-    top: 16px;
-}
-    
 .login a{
-    color: var(--main-color);
-    font-family: 'Gilrol-medium';
-    text-decoration: solid;
-    font-weight: 300;
+    z-index: 999;
+    position: relative;
+    gap: 10em;
     justify-content: space-between;
 }
-.login span{
-    top: 20px;
-    color: #fff;
-    background: #0065FE;
-    border: 1px solid transparent;
-    padding: 10px 20px;
-    font-size: 15px;
-    border-radius: 30px;
-    text-decoration: solid;background: #0065FE;
-}
+
 .writings{
     margin-left: 200px;
     margin-top: 200px;
